@@ -7,6 +7,9 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+// Set the background color to white
+scene.background = new THREE.Color(0x00395e);
+
 // Floor (large enough for big blocks)
 const floorGeometry = new THREE.BoxGeometry(1000, 10, 1000);
 const floorMaterial = new THREE.MeshPhongMaterial({ color: 0x7f828f });
