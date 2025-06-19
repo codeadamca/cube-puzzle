@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Three.js OrbitControls Test</title>
-  <style>
-    body { margin: 0; }
-    canvas { display: block; }
-  a:link,
-  a:active,
-  a:hover,
-  a:visited {
-    color: #fff;
-    text-decoration: none;
-  }
-#codeadam {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    font-size: 24px;
-    padding: 15px;
-    z-index: 10000;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #codeadam img {
-    vertical-align: middle;
-  }
-  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D Cube Puzzle | Adam Thomas</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+      }
+      a:link,
+      a:active,
+      a:hover,
+      a:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+      #codeadam {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        font-size: 24px;
+        padding: 15px;
+        z-index: 10000;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #codeadam img {
+        vertical-align: middle;
+      }
+    </style>
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/57a8a8c892.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="codeadam">
+      <a href="/"><i class="fas fa-bars"></i></a>
+      &nbsp;
+      <a href="https://github.com/codeadamca/cube-puzzle"
+        ><i class="fab fa-github"></i
+      ></a>
+      &nbsp;
+      <a href="https://codeadam.ca"
+        ><img src="https://codeadam.ca/images/code-block-white.png" width="30"
+      /></a>
+    </div>
 
-  <script src="https://kit.fontawesome.com/57a8a8c892.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-  <div id="codeadam">
-    <a href="/"><i class="fas fa-bars"></i></a>
-    &nbsp;
-    <a href="https://github.com/codeadamca/cube-puzzle"><i class="fab fa-github"></i></a>
-    &nbsp;
-    <a href="https://codeadam.ca"><img src="https://codeadam.ca/images/code-block-white.png" width="30"></a>
-  </div>
-  
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://threejs.org/build/three.module.js",
-      "three/addons/": "https://threejs.org/examples/jsm/"
-    }
-  }
-  </script>
-  <script type="module" src="./main.js"></script>
-</body>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
