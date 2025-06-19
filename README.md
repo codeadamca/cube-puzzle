@@ -2,6 +2,8 @@
 
 This is a digital version of the cube puzzle built with LEGO&reg; bricks.
 
+![3D Cube Puzzle](_readme/screenshot-cube-puzzle.png)
+
 > Details on the puzzle are available at:
 > https://activities.codeadam.ca/cube
 
